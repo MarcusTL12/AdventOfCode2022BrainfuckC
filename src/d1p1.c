@@ -41,6 +41,6 @@ void main() {
         }
     }
 
-    bigint_write(max, buf, digitbuf, 3);
+    bigint_write(max, buf, digitbuf, N);
     write_char('\n');
 }

@@ -61,6 +61,6 @@ void main() {
     bigint_add(max1, max2, N);
     bigint_add(max1, max3, N);
 
-    bigint_write(max1, buf, digitbuf, 3);
+    bigint_write(max1, buf, digitbuf, N);
     write_char('\n');
 }
