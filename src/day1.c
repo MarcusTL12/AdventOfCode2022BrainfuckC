@@ -16,12 +16,11 @@ void main() {
     int l = 0;
 
     bool done = false;
-    bool done2 = false;
 
     while (!done) {
         memset(acc, 0, N);
 
-        done2 = false;
+        bool done2 = false;
         while (!done2) {
             l = read_string_delim(s, '\n');
             if (l == 0) {
