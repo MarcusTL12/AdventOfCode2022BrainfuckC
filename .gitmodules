@@ -1,0 +1,3 @@
+[submodule "brainfuck-c-util"]
+	path = brainfuck-c-util
+	url = https://github.com/MarcusTL12/brainfuck-c-util
